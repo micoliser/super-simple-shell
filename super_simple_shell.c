@@ -25,7 +25,7 @@ int main(void)
 			stat = execve(arr[0], arr, NULL);
 			if (stat == -1)
 			{
-				printf("Invalid command\n");
+				printf("Invalid command %s\n", arr[0]);
 				exit(98);
 			}
 		}
