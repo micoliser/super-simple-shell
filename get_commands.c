@@ -15,5 +15,6 @@ char **get_commands(char *buffer, size_t n)
 	arr = _strtok(buffer, " ");
 
 	free(buffer);
+
 	return(arr);
 }
