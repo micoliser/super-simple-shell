@@ -35,7 +35,7 @@ char **_strtok(char *str, char *del)
 		return (NULL);
 	for (i = 0; i <= delcount; i++)
 	{
-		arr[i] = malloc(sizeof(char) * 100);
+		arr[i] = malloc(sizeof(char) * 1500);
 		if (!arr[i])
 		{
 			for (j = 0; j < i; j++)

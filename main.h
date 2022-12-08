@@ -14,5 +14,6 @@ ssize_t _getline(char **buffer, size_t *n, FILE *file);
 char **_strtok(char *str, char *del);
 char **get_commands(char *buffer, size_t n);
 void free_arr(char **arr);
+char *_getenv(const char *name);
 
 #endif
