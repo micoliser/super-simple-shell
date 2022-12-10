@@ -9,13 +9,13 @@ int main(void)
 {
 	char *line = NULL;
 	size_t len = 0;
-	pid_t child;
+	pid_t child = 0;
 	char **arr = NULL;
 	int stat;
 
 	for (; ;)
 	{
-		printf("micolisershell$ ");
+		printf("$ ");
 		fflush(stdout);
 
 		child = fork();
